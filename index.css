@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 25px;
+   
+   
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    width: 50%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 20px;
+}
+#madawell{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    height: 600px;
+    background-color: white; 
+}
+#madawell .container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#madawell .cont{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.madawellImg img{
+    width: 100%;
+}
